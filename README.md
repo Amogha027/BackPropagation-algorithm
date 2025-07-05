@@ -19,16 +19,16 @@
 - Plotted the contour plot using arrow to show the movement after each update.
 
 ### ROSENBROCK FUNCTION f(x, y) = x^2 + 100(y-x^2)^2
-![Gradient Descent](RGD.png)
-![Gradient Descent with Polyak's momentum](RGDP.png)
-![Nesterov Gradient Descent](RGDN.png)
-![Gradient Descent with Adam Optimizer](RGDA.png)
+![Gradient Descent](images/RGD.png)
+![Gradient Descent with Polyak's momentum](images/RGDP.png)
+![Nesterov Gradient Descent](images/RGDN.png)
+![Gradient Descent with Adam Optimizer](images/RGDA.png)
 
 ### FUNCTION f(x, y) = (50/9)(x^2 + y^2)^3 − (209/18)(x^2 + y^2)^2 + (59/9)(x^2 + y^2)
-![Gradient Descent](FGD.png)
-![Gradient Descent with Polyak's momentum](FGDP.png)
-![Nesterov Gradient Descent](FGDN.png)
-![Gradient Descent with Adam Optimizer](FGDA.png)
+![Gradient Descent](images/FGD.png)
+![Gradient Descent with Polyak's momentum](images/FGDP.png)
+![Nesterov Gradient Descent](images/FGDN.png)
+![Gradient Descent with Adam Optimizer](images/FGDA.png)
 
 # PART 2: Back Propagation, Resilient Propagation (RProp) and QuickProp
 - Import all the required libraries for the implementation.
@@ -62,16 +62,16 @@
 - Leaky ReLU has lower loss in BackProp and QuickProp whereas tanh has lower loss in case of RProp.
 - So, the choice of activation function depends on specific problem and the architecture of the network.
 
-![BackPropagation with tanh (25 hidden units)](BPtanh25.png)
-![BackPropagation with tanh (50 hidden units)](BPtanh50.png)
-![BackPropagation with Leaky ReLU (25 hidden units)](BPLReLU25.png)
-![BackPropagation with Leaky ReLU (50 hidden units)](BPLReLU50.png)
-![QuickPropagation with tanh (25 hidden units)](QPtanh25.png)
-![QuickPropagation with tanh (50 hidden units)](QPtanh50.png)
-![QuickPropagation with Leaky ReLU (25 hidden units)](QPLReLU25.png)
-![QuickPropagation with Leaky ReLU (50 hidden units)](QPLReLU50.png)
-![RPropagation with tanh (25 hidden units)](RPtanh25.png)
-![RPropagation with tanh (50 hidden units)](RPtanh50.png)
-![RPropagation with Leaky ReLU (25 hidden units)](RPLReLU25.png)
-![RPropagation with Leaky ReLU (50 hidden units)](RPLReLU50.png)
-![Data Analysis](data.png)
+![BackPropagation with tanh (25 hidden units)](images/BPtanh25.png)
+![BackPropagation with tanh (50 hidden units)](images/BPtanh50.png)
+![BackPropagation with Leaky ReLU (25 hidden units)](images/BPLReLU25.png)
+![BackPropagation with Leaky ReLU (50 hidden units)](images/BPLReLU50.png)
+![QuickPropagation with tanh (25 hidden units)](images/QPtanh25.png)
+![QuickPropagation with tanh (50 hidden units)](images/QPtanh50.png)
+![QuickPropagation with Leaky ReLU (25 hidden units)](images/QPLReLU25.png)
+![QuickPropagation with Leaky ReLU (50 hidden units)](images/QPLReLU50.png)
+![RPropagation with tanh (25 hidden units)](images/RPtanh25.png)
+![RPropagation with tanh (50 hidden units)](images/RPtanh50.png)
+![RPropagation with Leaky ReLU (25 hidden units)](images/RPLReLU25.png)
+![RPropagation with Leaky ReLU (50 hidden units)](images/RPLReLU50.png)
+![Data Analysis](images/data.png)
